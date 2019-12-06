@@ -7,4 +7,4 @@ add_library(Register SHARED library.c library.h)
 
 add_library(Hello SHARED com_ysl_myjni_Register.h com_ysl_myjni_Register.c)
 
-add_library(DyHello SHARED DyRegister.c)
+add_library(DyHello SHARED DyRegister.c mycpp.cpp)
